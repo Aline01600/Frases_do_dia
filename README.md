@@ -35,3 +35,5 @@ Imagens: Como exibir imagens de forma local no aplicativo.
 ElevatedButton: Um botão interativo que reage a toques do usuário.
 
 Gerenciamento de Estado (setState): O método essencial para notificar o Flutter de que os dados mudaram e que a interface deve ser reconstruída.
+
+GestureDetector: Detecta gestos do usuário, como toques, cliques longos ou arrastar, e permite que você execute uma ação em resposta a esses gestos.

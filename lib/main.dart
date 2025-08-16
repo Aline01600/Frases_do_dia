@@ -60,7 +60,10 @@ class _FrasesDoDiaState extends State<FrasesDoDia> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Image.asset("imagens/logo.png"),
+                GestureDetector(
+                  onTap: (_gerarFrase),
+                  child: Image.asset("imagens/logo.png"),
+                ),
                 // O Text agora mostra a frase do estado do widget.
                 Text(
                   _fraseGerada,
